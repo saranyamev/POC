@@ -40,6 +40,7 @@ public class SampleAndroidTest {
 
 @Test
     public void testUntitled() {
+	//Sample Test
         driver.findElement(By.xpath("//*[@text='Dashboard']")).click();
         // driver.pressKeyCode(AndroidKeyCode.HOME);
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Dashboard']")));
